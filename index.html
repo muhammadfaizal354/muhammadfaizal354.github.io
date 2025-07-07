@@ -25,11 +25,21 @@
   </header>
 
   <section class="min-h-screen flex flex-col justify-center items-center gradient-bg text-white text-center px-4 pt-24 md:pt-0">
+    <!-- VIDEO BACKGROUND -->
+  <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+    <source src="video/bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <!-- OVERLAY / PENGGELAP LATAR VIDEO -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+
+  <!-- KONTEN UTAMA -->
+  <div class="relative z-20">
     <img src="images/profil-faizal.jpg" alt="Muhammad Faizal"
       class="w-36 md:w-48 aspect-square object-cover rounded-full mx-auto mb-6 shadow-xl border-4 border-white transition-transform duration-500 hover:scale-105">
     <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight font-Montserrat">Halo, Saya <span class="block mt-2">Muhammad Faizal</span></h1>
     <p class="text-xl md:text-2xl mb-8 font-light typing-effect" id="typing-text">Spesialis Pengembangan Web Profesional dengan Laravel & PHP Native</p>
-    <div class="flex flex-col md:flex-row gap-4">
+    <div class="flex flex-col md:flex-row gap-4 justify-center">
       <a href="#projects" class="btn-primary font-semibold px-8 py-3 rounded-full shadow-lg">Lihat Portofolio</a>
       <a href="#contact" class="btn-secondary font-semibold px-8 py-3 rounded-full shadow-lg">Hubungi Saya</a>
     </div>
