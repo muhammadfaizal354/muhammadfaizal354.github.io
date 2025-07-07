@@ -1,0 +1,15 @@
+<style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .btn-custom {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 999px;
+    transition: 0.3s;
+  }
+  .btn-custom:hover {
+    background-color: #5a52e0;
+  }
+</style>
