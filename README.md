@@ -83,7 +83,7 @@ Penggajian otomatis terintegrasi dengan absensi, lembur, dan potongan.
 
 - TikTok: [@legalcoding](https://tiktok.com/@legalcoding)
 - Link Lengkap: [https://linktr.ee/legalcoding](https://linktr.ee/legalcoding)
-- Portofolio Web: [https://legalcoding.my.id](https://legalcoding.my.id)
+- Portofolio Web: [https://muhammadfaizal354.github.io/](https://muhammadfaizal354.github.io/)
 
 ---
 
